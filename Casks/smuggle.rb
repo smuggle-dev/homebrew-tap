@@ -2,15 +2,15 @@
 cask "smuggle" do
   app "Smuggle.app"
 
-  version "0.5.1"
+  version "0.5.2"
 
   on_macos do
     on_intel do
-      sha256 "8e711ca72288f0c3bb0ab0f4e250c2870702c2ae97d3896c93355fa667439e6a"
+      sha256 "123d789ecf77baf1b3d447f3d67a5023e720763a9da1b7f82b79729900e0c993"
       url "https://github.com/smuggle-dev/smuggle/releases/download/v#{version}/smuggle_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "7ededdee95ebe5a3ad9683c301184ebbbeffb522785025d354c99712d3c83d54"
+      sha256 "a55771d9326c60df3eed0b3c309c22d904d8ced2e54e6bc47f9724750f671060"
       url "https://github.com/smuggle-dev/smuggle/releases/download/v#{version}/smuggle_#{version}_darwin_arm64.tar.gz"
     end
   end
